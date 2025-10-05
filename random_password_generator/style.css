@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* horizontally center */
+    align-items: center;      /* vertically center */
+    margin: 0; 
+}
+
+.txt-d{
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.txt-d span{
+    color: lightgreen;
+}
+
+.txt-l{
+    margin-top: 0;
+    font-size: small;
+}
+
+.bg{
+    background-color:#19222f ;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.btn{
+    background-color: lightgreen;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgb(157, 213, 157) ;
+}
+
+
+
+.pass-container{
+    display: flex;
+    margin-top:50px ;
+    justify-content: space-around;
+}
+
+.pass-holder{
+    background-color:#4c627a31 ;
+    width: 200px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 5px 3px 0 3px;
+    border: .5px solid rgba(61, 67, 67, 0.166);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.copy{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    cursor: pointer;
+}
+
+#cpy1, #cpy2{
+    color: rgb(40, 196, 40);
+    text-align: center;
+}
