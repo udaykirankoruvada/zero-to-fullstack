@@ -13,12 +13,19 @@ body{
     margin-bottom:4px ;
 }
 
-#input-btn{
+#input-btn,#delete-btn,#tab-btn{
     background-color: green;
     color: white;
     padding: 10px 20px;
     border: none;
     font-weight: bold;
+    cursor: pointer;
+}
+
+#delete-btn{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
 }
 
 ul{
@@ -32,4 +39,10 @@ li{
 
 li a{
     color:green;
+}
+
+#err-msg{
+    margin-top: 10px;
+    color: red;
+    text-shadow: 0px 0px .5px black;
 }
